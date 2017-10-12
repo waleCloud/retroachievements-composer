@@ -1,19 +1,16 @@
-[![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhk6glux07Qv-MJHXlBmK8LQ0gKALFPp2Yc_UTMGd9AMR_gRLKg)]()
 # RetroAchievements composer package
+```sh
+/* RetroAchievements composer Package is a simple wrapper around the RetroAchievements.org API written in PHP
+*/
+```
 
-RetroAchievements composer Package is a ......................................................
 # Open Source
 
-  - RetroAchievements composer package is completely open sourced. Any [contribution](https://github.com/joestrong/retroachievements-composer/#contribute) is highly appreciated.
+  - RetroAchievements composer package is completely open sourced.
 
 
 
 # Installation
-
-RetroAchievements composer package requires [Composer](https://composer.org/) to run.
-
-#### Install the dependencies.
-
 ```sh
 $ composer require joestrong/retroachievements
 ```
@@ -52,23 +49,3 @@ Get games for console
 
 $ra->getGamesForConsole($consoleId);
 ```
-
-
-# Development
-
-Want to contribute? Great!
-
-
-
-### Todos
-
- - Write MORE Tests
- - Add Night Mode
-
-License
-----
-
-MIT
-
-
-**Free Software, Hell Yeah!**
