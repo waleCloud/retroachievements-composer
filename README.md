@@ -1,12 +1,26 @@
-## RetroAchievements composer package
+[![N|Solid](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhk6glux07Qv-MJHXlBmK8LQ0gKALFPp2Yc_UTMGd9AMR_gRLKg)]()
+# RetroAchievements composer package
 
-Install with:
+RetroAchievements composer Package is a ......................................................
+# Open Source
 
-`composer require joestrong/retroachievements`
+  - RetroAchievements composer package is completely open sourced. Any [contribution](https://github.com/joestrong/retroachievements-composer/#contribute) is highly appreciated.
 
-Use in a project:
 
+
+# Installation
+
+RetroAchievements composer package requires [Composer](https://composer.org/) to run.
+
+#### Install the dependencies.
+
+```sh
+$ composer require joestrong/retroachievements
 ```
+
+# Getting Started Usage
+
+```sh
 require_once('../vendor/autoload.php');
 
 use JoeStrong\RetroAchievements\RetroAchievements;
@@ -19,20 +33,42 @@ foreach ($users as $user) {
 }
 ```
 
-## Methods
+### Methods
 
+```php
 Auth with the API
 
-`$ra = new RetroAchievements($username, $apiKey);`
+$ra = new RetroAchievements($username, $apiKey);
 
 Get the top 10 users
 
-`$ra->getTopTenUsers();`
+$ra->getTopTenUsers();
 
 Get the consoles
 
-`$ra->getConsoles();`
+$ra->getConsoles();
 
 Get games for console
 
-`$ra->getGamesForConsole($consoleId);`
+$ra->getGamesForConsole($consoleId);
+```
+
+
+# Development
+
+Want to contribute? Great!
+
+
+
+### Todos
+
+ - Write MORE Tests
+ - Add Night Mode
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
