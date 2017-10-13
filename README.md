@@ -1,12 +1,11 @@
 # RetroAchievements composer package
 ```sh
-/* RetroAchievements composer Package is a simple wrapper around the RetroAchievements.org API written in PHP
-*/
+RetroAchievements composer Package is a simple wrapper around the RetroAchievements.org API written in PHP
 ```
 
 # Open Source
 
-  - RetroAchievements composer package is completely open sourced.
+RetroAchievements composer package is completely open sourced.
 
 
 
@@ -33,19 +32,19 @@ foreach ($users as $user) {
 ### Methods
 
 ```php
-Auth with the API
-
+// Auth with the API
 $ra = new RetroAchievements($username, $apiKey);
 
-Get the top 10 users
-
+// Get the top 10 users
 $ra->getTopTenUsers();
 
-Get the consoles
-
+// Get the consoles
 $ra->getConsoles();
 
-Get games for console
-
+// Get games for console
 $ra->getGamesForConsole($consoleId);
 ```
+License
+----
+
+MIT
