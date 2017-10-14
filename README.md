@@ -1,7 +1,6 @@
 # RetroAchievements composer package
-```sh
+
 RetroAchievements composer Package is a simple wrapper around the RetroAchievements.org API written in PHP
-```
 
 # Open Source
 
